@@ -1,188 +1,112 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Promo Fashion Terlaris</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promo Fashion Terbaru</title>
+  <meta name="description" content="Promo fashion terbaru! Baju dan sepatu kekinian, harga terjangkau, kualitas premium.">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
     body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
       background: #f5f5f5;
-      color: #222;
+      color: #333;
     }
-
     header {
-      background: linear-gradient(135deg, #111, #333);
+      background: linear-gradient(135deg, #000, #444);
       color: #fff;
       padding: 50px 20px;
       text-align: center;
     }
-
     header h1 {
+      margin: 0;
       font-size: 32px;
-      margin-bottom: 10px;
     }
-
     header p {
       font-size: 16px;
-      opacity: 0.9;
+      margin-top: 10px;
     }
-
-    .container {
+    .cta {
+      display: inline-block;
+      margin-top: 20px;
+      background: #25D366;
+      color: #fff;
+      padding: 14px 26px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
-      padding: 20px;
     }
-
-    .promo {
-      background: #fff;
-      border-radius: 12px;
-      padding: 20px;
-      margin-top: -40px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    }
-
-    .promo img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 15px;
-    }
-
-    .badge {
-      display: inline-block;
-      background: #ff3d3d;
-      color: #fff;
-      padding: 6px 14px;
-      border-radius: 20px;
-      font-size: 13px;
-      margin-bottom: 10px;
-    }
-
-    .promo h2 {
-      font-size: 26px;
-      margin: 10px 0;
-    }
-
-    .price {
-      margin: 15px 0;
-    }
-
-    .price del {
-      color: #999;
-      margin-right: 10px;
-    }
-
-    .price span {
-      font-size: 26px;
-      font-weight: bold;
-      color: #e60023;
-    }
-
     .features {
-      margin: 20px 0;
-    }
-
-    .features li {
-      list-style: none;
-      margin-bottom: 8px;
-    }
-
-    .cta {
-      text-align: center;
-      margin-top: 25px;
-    }
-
-    .cta a {
-      display: inline-block;
-      background: #000;
-      color: #fff;
-      text-decoration: none;
-      padding: 14px 30px;
-      border-radius: 30px;
-      font-size: 16px;
-      transition: 0.3s;
-    }
-
-    .cta a:hover {
-      background: #e60023;
-    }
-
-    .trust {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 15px;
-      margin-top: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
       text-align: center;
     }
-
-    .trust div {
-      background: #fafafa;
-      padding: 15px;
-      border-radius: 10px;
-      font-size: 14px;
+    .card h3 {
+      margin-top: 10px;
     }
-
     footer {
+      background: #111;
+      color: #aaa;
       text-align: center;
       padding: 20px;
-      font-size: 13px;
-      color: #777;
+      font-size: 14px;
     }
   </style>
 </head>
-
 <body>
 
 <header>
-  <h1>Promo Fashion Terlaris 🔥</h1>
-  <p>Baju & Sepatu Kualitas Premium • Harga Spesial Hari Ini</p>
+  <h1>Promo Fashion Kekinian 🔥</h1>
+  <p>Baju & Sepatu Trendy • Kualitas Premium • Harga Bersahabat</p>
+  <a class="cta" href="https://wa.me/6281234567890" target="_blank">
+    Chat WhatsApp Sekarang
+  </a>
 </header>
 
-<div class="container">
-  <div class="promo">
-
-    <!-- GANTI GAMBAR PRODUK -->
-    <img src="https://images.unsplash.com/photo-1521334884684-d80222895322" alt="Produk Fashion">
-
-    <span class="badge">DISKON TERBATAS</span>
-    <h2>Streetwear Style – Nyaman & Trendy</h2>
-
-    <div class="price">
-      <del>Rp 399.000</del>
-      <span>Rp 249.000</span>
+<section>
+  <h2 style="text-align:center;">Kenapa Pilih Produk Kami?</h2>
+  <div class="features">
+    <div class="card">
+      <h3>Model Terbaru</h3>
+      <p>Update tren fashion terkini, cocok untuk semua gaya.</p>
     </div>
-
-    <ul class="features">
-      <li>✅ Bahan premium & nyaman dipakai</li>
-      <li>✅ Cocok pria & wanita</li>
-      <li>✅ Ready size & warna</li>
-      <li>✅ Bisa COD & kirim seluruh Indonesia</li>
-    </ul>
-
-    <div class="cta">
-      <!-- GANTI LINK WHATSAPP / MARKETPLACE -->
-      <a href="#">🛒 Beli Sekarang</a>
+    <div class="card">
+      <h3>Kualitas Terjamin</h3>
+      <p>Bahan nyaman, awet, dan premium di kelasnya.</p>
     </div>
-
-    <div class="trust">
-      <div>⭐ Rating 4.9 / 5</div>
-      <div>🚚 Pengiriman Cepat</div>
-      <div>🔒 Pembayaran Aman</div>
-      <div>💬 CS Responsif</div>
+    <div class="card">
+      <h3>Harga Terjangkau</h3>
+      <p>Harga ramah kantong, cocok untuk reseller & pemakaian sendiri.</p>
     </div>
-
+    <div class="card">
+      <h3>Pengiriman Cepat</h3>
+      <p>Diproses cepat dan aman ke seluruh Indonesia.</p>
+    </div>
   </div>
-</div>
+</section>
+
+<section style="text-align:center;">
+  <h2>Siap Tampil Lebih Percaya Diri?</h2>
+  <p>Jangan sampai kehabisan! Stok terbatas dan promo bisa berakhir kapan saja.</p>
+  <a class="cta" href="https://wa.me/6281234567890" target="_blank">
+    Pesan Sekarang via WhatsApp
+  </a>
+</section>
 
 <footer>
-  © 2026 • Promo Online Shop | Template HTML Siap Jual
+  © 2026 Promo Fashion | Dibuat dengan ❤️ untuk jualan online
 </footer>
 
 </body>
